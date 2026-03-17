@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../style.css">
+    <title>Cadastro - VECTRA</title>
+</head>
+<body>
+    <main class="page">
+        <section class="auth-card">
+            <h1 class="auth-title">Cadastrar</h1>
+
+            <form id="registerForm" class="form" autocomplete="off">
+                <label class="form-field">
+                    <span class="field-label">Nome Completo</span>
+                    <div class="input-group">
+    
+                        <input id="registerName" class="input" type="text" placeholder="Seu nome completo" required>
+                    </div>
+                </label>
+
+                <label class="form-field">
+                    <span class="field-label">Email</span>
+                    <div class="input-group">
+                        
+                        <input id="registerEmail" class="input" type="email" placeholder="seu@email.com" required>
+                    </div>
+                </label>
+
+                <label class="form-field">
+                    <span class="field-label">Cargo/Perfil</span>
+                    <div class="input-group">
+            
+                        <select id="registerRole" class="input">
+                            <option value="funcionario">Funcionário</option>
+                            <option value="conferente">Conferente</option>
+                        </select>
+                    </div>
+                </label>
+
+                <div class="form-row">
+                    <label class="form-field">
+                        <span class="field-label">Senha</span>
+                        <div class="input-group">
+               
+                            <input id="registerPassword" class="input" type="password" placeholder="Senha" required>
+              
+                        </div>
+                    </label>
+
+                    <label class="form-field">
+                        <span class="field-label">Confirmar</span>
+                        <div class="input-group">
+
+                            <input id="registerPasswordConfirm" class="input" type="password" placeholder="Confirmar" required>
+              
+                        </div>
+                    </label>
+                </div>
+
+                <button type="submit" class="btn btn-primary">Cadastrar</button>
+
+                <p class="small-text">
+                    Já tem uma conta? <a href="../../index.html">Faça login</a>
+                </p>
+            </form>
+        </section>
+    </main>
+
+    <script src="../../script.js"></script>
+</body>
+</html>

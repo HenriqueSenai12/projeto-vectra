@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Login - VECTRA</title>
+</head>
+
+<body>
+    <main class="page">
+        <section class="auth-card">
+            <h1 class="auth-title">Entrar</h1>
+
+            <form id="loginForm" class="form" autocomplete="off">
+                <label class="form-field">
+                    <span class="field-label">Email</span>
+                    <div class="input-group">
+
+                        <input id="loginEmail" class="input" type="email" placeholder="seu@email.com" required>
+                    </div>
+                </label>
+
+                <label class="form-field">
+                    <span class="field-label">Senha</span>
+                    <div class="input-group">
+
+                        <input id="loginPassword" class="input" type="password" placeholder="Sua senha" required>
+
+                    </div>
+                </label>
+
+                <button type="submit" class="btn btn-primary">Entrar</button>
+
+                <p class="small-text">
+                    Ainda não tem uma conta? <a href="pages/cadastro/cadastro.html">Cadastre-se</a>
+                </p>
+            </form>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
